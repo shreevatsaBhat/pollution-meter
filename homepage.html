@@ -2,7 +2,9 @@
 <html lang = "en">
 <head>
 	<title>e-Pollution Monitor</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <meta charset="utf-8">
+	<link rel="stylesheet" href="../styles/bootstrap/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
@@ -14,17 +16,18 @@
 	         <p class = "subheading" >safegaurding our surroundings</p>
 	    </header>
 	</div>
-		<div class = "navbar navbar-inverse navbar-static-top" role = "navigation">
-			<div class = "container">
-				<div class = "navbar-header">
-					<button  class = "navbar-toggle" data-toggle = "collapse" data-target = ".collapse-1">
+	<div class = "navbar navbar-inverse navbar-static-top" role = "navigation">
+		<div class = "container-fluid">
+			<div class = "navbar-header">
+			<button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#collapse1">
                          <span class="icon-bar"></span>
                          <span class="icon-bar"></span>
                          <span class="icon-bar"></span>
                      </button>
-                 <div class = "collapse navbar-collapse collapse1">
-		<ul class = "nav navbar-nav navbar-left">
-			<li class = "active"><a class = "text-uppercase" href = "overview.html">overview<span class ="sr-only">(current)</span> </a></li>
+				</div>
+                 <div class = "collapse navbar-collapse " id = "collapse1">
+		<ul class = "nav navbar-nav">
+			<li ><a class = "text-uppercase" href = "overview.html">overview</span> </a></li>
 			<li ><a class = "text-uppercase" href = "pollutionMeter.html">pollution meter</a></li>
 			<li ><a class = "text-uppercase" href = "analytics.html">analytics</a></li>
 			<li ><a class = "text-uppercase" href = "implementation.html">implementation</a></li>
@@ -32,7 +35,7 @@
 				<a href = "#" class = "dropdown-toggle text-uppercase" data-toggle = "dropdown">more <b class = "caret"></b></a>
 				<ul class = "dropdown-menu">
 					<li><a href = "documentation.html">Documentation</a></li>
-					<li><a href = "joinUs.html">Join Us</a></li>
+					<li><a href = "contact.html">Contact</a></li>
 					<li><a href = "aboutUs.html">About Us</a></li>
 				</ul>
 			</li>
@@ -40,6 +43,31 @@
 	</div>
 </div>
 </div>
+<div class = "container-fluid">
+	<div class = "alert alert-info alert-dismissible" role = "alert">
+    <button type = "button" class = "close" data-dismiss = "alert" aria-label = "Close"><span aria-hidden="true">&times;</span></button>
+    <span class = "glyphicon glyphicon-info-sign"></span>
+    Click on images to get numbered references and more info
+	</div>
+	<h3 class = "text-left col-sm-6"><span class = "text-capitalize">problem definition</span></h3>
+	<svg width = "100%" height = "3">
+		<line x1 = "0" y1 = "0" x2 = "500" y2 = "0" stroke-width = "2" stroke = "green"></line>
+	</svg>
+	<div class = "row">
+	<p class ="col-sm-8" >Environment pollution is one of the major human created problems that we are facing today. Pollution is a result of population explotion, technological advancement, so called industrial revolutions and human desire towards ease of life. Literally we killed our surrounding environment in the race for survival of the fittest but we forgot that we are not independent, we are dependent species. We used science and technology to serve our needs. This is the time that we need to use technology and science to protect motherearth. Our generation is meant for that purpose. To prevent pollution we need an effective analysis of the cause of pollution, present situation and future predictions of the global pollution index. It needs highly robust, reliable and optimal systems, computational techniques and implementation strategies. Our goal is to build a system that can provide informations about the quantity of pollutants in the environment at present and analyse the raw results using computational techniques. The results of analysis will be used to predict the possible future states of pollutant quantity and to take prevention measures. At present we are developing only air pollution monitoring system. Adjuscent diagram is a schematic representation of how air pollution happens.</p>
+	<a href = "images/schematic_air_pollution.html"><img src = "images/schematic_air_pollution.png" class = "img-responsive col-sm-4" ></img></a>
+</div>
+	<h3 class = "text-left col-sm-6"><span class = "text-capitalize">abstract</span></h3>
+	<svg width = "100%" height = "3">
+		<line x1 = "0" y1 = "0" x2 = "500" y2 = "0" stroke-width = "2" stroke = "green"></line>
+	</svg>
+	<p>Air pollution formally defined as </p>
+	<h3 class = "text-left col-sm-6"><span class = "text-capitalize">introduction</span></h3>
+	<svg width = "100%" height = "3">
+		<line x1 = "0" y1 = "0" x2 = "500" y2 = "0" stroke-width = "2" stroke = "green"></line>
+	</svg>
+
+
 </div>
 </body>
 <style type="text/css">
